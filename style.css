@@ -69,6 +69,7 @@ textarea {
 
 a:hover {
 	/* text-decoration: underline; */
+    text-decoration: none;
 }
 
 h1,
@@ -215,6 +216,8 @@ ul.nav-menu ul a:hover,
 .nav-menu .current-menu-ancestor > a {
 	/* color: #bc360a; */
     /* font-style: italic; */
+    color: #EEEEEE;
+    font-style: normal;
     font-weight: 700;
 }
 
@@ -296,11 +299,13 @@ ul.nav-menu ul a:hover,
 .entry-content img.alignleft,
 .entry-content .wp-caption.alignleft {
 	/* margin-left: -60px; */
+    margin-left: 10px;
 }
 
 .entry-content img.alignright,
 .entry-content .wp-caption.alignright {
 	/* margin-right: -60px; */
+    margin-right: 10px;
 }
 
 /**
@@ -619,4 +624,9 @@ ul.nav-menu ul a:hover,
 	.comment-list .children > li:before {
 		background-image: url(images/dotted-line-2x.png);
 	}
+}
+
+/* Duoshuo */
+#ds-thread {
+  padding: 0 516px 0 200px;
 }
