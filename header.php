@@ -25,8 +25,8 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-  <link rel="shortcut icon" href="http://cos.name/wp-content/themes/COS-kermesinus/images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="http://cos.name/wp-content/themes/COS-kermesinus/images/favicon.ico" type="image/ico">
+  <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri() ?>/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="<?php echo get_stylesheet_directory_uri() ?>/images/favicon.ico" type="image/ico">
 
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
@@ -54,7 +54,7 @@
       <?php /* hard-coded. It's bad, but I need to use it. --Yixuan */ ?>
       <div id="cos-logo">
           <a href="http://cos.name/">
-            <img src="http://cos.name/wp-content/themes/COS-kermesinus/images/headers/cos-logo.png" />
+            <img src="<?php echo get_stylesheet_directory_uri() ?>/images/headers/cos-logo.png" />
           </a>
       </div>
 
