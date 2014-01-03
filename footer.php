@@ -16,7 +16,7 @@
 
 			<div class="site-info">
 				<?php do_action( 'twentythirteen_credits' ); ?>
-				版权所有 © 2013 统计之都 | 由 <a href="http://wordpress.org/">WordPress</a> 构建 | 主题修改自 <a href="http://wordpress.org/themes/twentythirteen">Twenty Thirteen</a>
+				版权所有 © 2014 统计之都 | 由 <a href="http://wordpress.org/">WordPress</a> 构建 | 主题修改自 <a href="http://wordpress.org/themes/twentythirteen">Twenty Thirteen</a>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
