@@ -33,7 +33,7 @@
   <![endif]-->
 
   <script type="text/javascript"
-      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
         MathJax.Hub.Config({
           tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
           TeX: {equationNumbers: {autoNumber: "AMS"}}
@@ -56,10 +56,10 @@
 <body <?php body_class(); ?>>
   <div id="page" class="hfeed site">
     <header id="masthead" class="site-header" role="banner">
-      
+
       <?php /* hard-coded. It's bad, but I need to use it. --Yixuan */ ?>
       <div id="cos-logo">
-        <a href="http://cos.name/">
+        <a href="<?php echo site_url() ?>">
           <img src="<?php echo get_stylesheet_directory_uri() ?>/images/headers/cos-logo.png" />
         </a>
       </div>
